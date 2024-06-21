@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { sidebarToggle } from "../../utils";
+import { sidebarToggle } from "../utils";
 
 
 const Float = () => {
@@ -14,7 +14,7 @@ const Float = () => {
       <button className="chat-icon" onClick={() => sidebarToggle()}>
         <i className='fa fa-comments'></i>
       </button>
-     
+
     </div>
   );
 };

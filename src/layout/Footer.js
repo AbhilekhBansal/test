@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import Float from "../components/floating_icon/float";
+import Float from "../components/Float";
 
 const Counter = dynamic(() => import("../components/Counter"), {
   ssr: false,
@@ -10,7 +10,7 @@ const Footer = ({ footer }) => {
   switch (footer) {
     case 1:
       return <DefaultFooter />;
-    
+
     default:
       return <DefaultFooter />;
   }
@@ -37,7 +37,7 @@ const DefaultFooter = () => (
   <footer className="main-footer bg-green pt-4 text-white">
     <Float />
     <div className="container">
-      
+
       <div className="row justify-content-center">
         <div className="col-lg-4 col-md-6 order-md-2">
           <div className="footer-widget about-widget text-center">
@@ -49,7 +49,7 @@ const DefaultFooter = () => (
               </Link>
             </div>
             <p>
-            Sidham Pharmacy, established in 2019, has aimed to provide exceptional services for mind, body and soul.
+              Sidham Pharmacy, established in 2019, has aimed to provide exceptional services for mind, body and soul.
             </p>
             <div className="social-style-two pt-10">
               <Link href="/contact">
@@ -84,8 +84,8 @@ const DefaultFooter = () => (
                   <a>About Us</a>
                 </Link>
               </li>
-              
-             
+
+
               <li>
                 <Link href="/portfolio-grid">
                   <a>Our Projects</a>
@@ -96,7 +96,7 @@ const DefaultFooter = () => (
                   <a>Best Products</a>
                 </Link>
               </li>
-              
+
               <li>
                 <Link href="/blog-grid">
                   <a>Latest News</a>
@@ -105,7 +105,7 @@ const DefaultFooter = () => (
               <li>
                 <Link href="/contact">Contact Us</Link>
               </li>
-             
+
               <li>
                 <Link href="/contact">Setting &amp; Privacy</Link>
               </li>
@@ -115,11 +115,11 @@ const DefaultFooter = () => (
         <div className="col-lg-4 col-md-6 order-md-3">
           <div className="footer-widget contact-widget">
             <h4 className="footer-title">Contact Us</h4>
-            
+
             <ul>
               <li>
                 <i className="fal fa-map-marker-alt" />
-                Manufacturing unit - village phalsanda jattan, pin 136156, Distt- Kurukshetra, Haryana 
+                Manufacturing unit - village phalsanda jattan, pin 136156, Distt- Kurukshetra, Haryana
               </li>
               <li>
                 <i className="fal fa-map-marker-alt" />
