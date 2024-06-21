@@ -1,0 +1,404 @@
+.navigation li.dropdown:hover > ul {
+  display: block;
+}
+.header-three .mobile-nav .logo img:last-child,
+.header-three .mobile-nav .mobile-logo img:last-child,
+.main-header .mobile-nav .logo img:last-child,
+.main-header .mobile-nav .mobile-logo img:last-child {
+  display: none;
+}
+.main-header.header-two .mobile-nav .logo img:last-child,
+.main-header.header-two .mobile-nav .mobile-logo img:last-child {
+  display: inline-block;
+}
+
+.page-item .page-link {
+  border-radius: 50% !important;
+}
+
+.slider-single-item {
+  display: none;
+}
+.slider-single-item.slick-active {
+  display: block;
+}
+
+ul.slick-dots {
+  display: flex !important;
+}
+
+.slick-slide {
+  padding: 0 15px;
+}
+
+/* image popup */
+img.mfp-img {
+  box-shadow: 0 0 8px rgb(0 0 0 / 60%);
+  position: absolute;
+  /* max-height: 392px; */
+  width: 100%;
+  padding: 0 !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mfp-img-container .mfp-content {
+  max-width: 400px !important;
+}
+.mfp-img-container .mfp-close {
+  top: -110px;
+  right: -24px;
+}
+/* .mfp-content {
+  height: 100%;
+} */
+.mfp-bottom-bar {
+  top: unset;
+  bottom: 14px;
+  right: 0;
+}
+
+/* .mfp-wrap {
+  position: unset;
+} */
+.content_popup_warp.mfp-wrap.popup-box-inline {
+  margin: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+ .custom-reviews-main {
+  border-radius: 5px;
+  border: 1.325px solid rgba(0, 0, 0, .2);
+  display: inline-flex;
+  align-self: center;
+  padding: 4px 9px;
+  gap: 8px;
+  cursor: pointer;
+}
+
+ .custom-reviews-main-svg.review-first {
+  border-right: 1px solid rgba(0, 0, 0, .4);
+  padding-right: 9px;
+  line-height: 1;
+}
+ .custom-reviews-main-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 7px; */
+}
+
+.product-information-tab li a.nav-link.active{
+  background-color: #ff7800;
+  color: white;
+}
+
+.des{
+  /* width: 33.33%; */
+}
+
+.parent{
+  position: relative;
+}
+
+.sale{
+  position: absolute;
+  background-color: red;
+  padding: 1px 4px;
+  border-radius: 0% 30%;
+  font-weight: bold;
+  color: white;
+}
+
+.imgselct{
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.imgparent{
+  position: relative;
+  display: flex;
+}
+
+.product-preview-images{
+  width: 100%;
+  margin: 0px 15px;
+
+}
+
+/* ChatIcon.css */
+.chat-icon-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999; /* Adjust as needed */
+}
+
+.chat-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #ff7800; /* Example color */
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.chat-icon img {
+  width: 80%;
+  height: 80%;
+}
+
+.chat-popup {
+  position: fixed;
+  bottom: 80px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  width: 300px; /* Adjust as needed */
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 9998; /* Adjust as needed */
+}
+
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.chat-content {
+  padding: 10px;
+}
+
+.menu-icons .cart{
+padding: 10px;
+}
+.menu-icons .user{
+  padding: 10px;
+  }
+
+  .nav-link {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .nav-link.active {
+    color: red;
+    text-decoration: underline;
+  }
+/* Register.css */
+.register-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.register-container form {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.register-container label {
+  margin-bottom: 5px;
+}
+
+.register-container input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.register-container button {
+  padding: 6px 20px;
+  background-color: #227200;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  margin-top: 35px;
+  max-height: 40px;
+  width: inherit;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  /* Tablet (iPad) */
+  .register-container {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Desktop */
+  .register-container {
+    max-width: 900px;
+  }
+}
+
+/* Login.css */
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container label {
+  margin-bottom: 5px;
+}
+
+.login-container input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  background-color: #ff7800;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  /* Tablet (iPad) */
+  .login-container {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Desktop */
+  .login-container {
+    max-width: 400px;
+  }
+}
+
+.register-section {
+  padding: 20px 0px;
+  background-image: url('https://img.freepik.com/free-vector/copy-space-bokeh-spring-lights-background_52683-55649.jpg?size=626&ext=jpg&ga=GA1.1.1855571936.1714641950&semt=ais'); /* Replace 'your-image-path.jpg' with the path to your image */
+  background-size: cover; /* or contain, or specify the size (e.g., 100% 100%) */
+}
+.register-container{
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media only screen and (min-width: 1024px) {
+ 
+  .register-container {
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  } 
+}
+
+.register-container input {
+  height: 40px;
+}
+
+.register-container label {
+  color: black;
+}
+
+.register-container form .error{
+  color:red;
+}
+
+.login-container{
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+@media only screen and (min-width: 1024px) {
+ 
+  .login-container {
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  } 
+}
+
+.login-container input {
+  height: 40px;
+}
+
+.login-container label {
+  color: black;
+}
+
+.login-container form .error{
+  color:red;
+}
+
+.quantity-input .cart-input {
+  display: grid;
+}
+.quantity-input input{
+  height:60px;
+  margin-bottom: 0px;
+}
+.cart-input button{
+  height:30px;
+  padding: 0px;
+}
+
+/* product details */
+
+.product-information-tab{
+  justify-content: space-between;
+}
+
+.comments-form input{
+  width: 100%;
+    height: auto;
+    border-radius: 5px;
+    padding: 8px 10px;
+    background-color: #fff;
+    border: 1px solid rgba(118, 167, 19, 0.15);
+}
+.review-form .row .r-input{
+  padding-right: 10px;
+    padding-left: 10px;
+}
+/* .des-section{
+  padding: 2rem  6rem;
+} */
+@media only screen and (max-width: 768px) {
+  .des-section{
+    padding: 0px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .des-section{
+    padding: 2rem  6rem;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .des-section{
+    padding: 2rem  2rem;
+  }
+}
